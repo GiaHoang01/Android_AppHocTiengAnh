@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">DoAnAppHocTiengAnh</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ng_ph_p">Ngữ pháp</string>
+    <string name="ki_m_tra">Kiểm Tra</string>
+    <string name="reading">Reading</string>
+    <string name="c_u_tr_l_i">Câu Trả Lời</string>
+    <string name="n_p_b_i">Nộp Bài</string>
+
+    <string name="app_guide">
+    <![CDATA[
+
+    <h2>Các Tính Năng Chính</h2>
+
+    <h3>Luyện Từ Vựng</h3>
+    <p>
+        <b>Chọn Từ:</b> Nhấn vào "Từ Vựng" từ menu chính. Chọn các từ bạn muốn học từ danh sách được cung cấp.
+    </p>
+    <p>
+        <b>Xem Định Nghĩa:</b> Nhấn vào "Định Nghĩa" để chuyển sang chế độ flashcard. Đọc các định nghĩa và làm quen với các từ vựng.
+    </p>
+
+    <h3>Luyện Ngữ Pháp</h3>
+    <p>
+        Truy cập các bài tập ngữ pháp thông qua menu chính. Làm theo hướng dẫn để hoàn thành các bài tập ngữ pháp.
+    </p>
+
+    <h3>Luyện Kỹ Năng</h3>
+    <p>
+        <b>Nghe:</b> Nhấn vào "Nghe" để truy cập các bài tập nghe theo chủ đề. Nghe các đoạn ghi âm để cải thiện kỹ năng nghe của bạn.
+    </p>
+    <p>
+        <b>Đọc:</b> Nhấn vào "Đọc" để thực hành kỹ năng đọc hiểu. Đọc đoạn văn và trả lời các câu hỏi liên quan.
+    </p>
+    <p>
+        <b>Viết:</b> Nhấn vào "Viết" để luyện kỹ năng viết. Viết các đoạn văn theo chủ đề được đưa ra và so sánh với mẫu.
+    </p>
+
+    <h3>Kiểm Tra Có Tính Thời Gian</h3>
+    <p>
+        Ứng dụng bao gồm các bài kiểm tra dạng trắc nghiệm (ABCD) có tính thời gian để đánh giá trình độ của bạn. Khi bắt đầu bài kiểm tra, bộ đếm thời gian sẽ bắt đầu. Hoàn thành các câu hỏi trong khung thời gian được cung cấp.
+    </p>
+
+    <h3>Cài Đặt</h3>
+    <p>
+        <b>Chủ Đề:</b> Vào phần "Cài Đặt" để chuyển đổi giữa chế độ sáng và tối theo sở thích của bạn.
+    </p>
+    <p>
+        <b>Phản Hồi:</b> Trong phần "Cài Đặt", chọn "Gửi Phản Hồi" để soạn email với phản hồi và đề xuất của bạn.
+    </p>
+
+    <h3>Lịch Sử</h3>
+    <p>
+        <b>Lịch Sử Luyện Tập:</b> Xem lịch sử luyện tập của bạn bằng cách chọn tab "Lịch Sử Luyện Tập". Tab này sẽ hiển thị tất cả các bài tập từ vựng, ngữ pháp, và các kỹ năng (nghe, đọc, viết) bạn đã hoàn thành.
+    </p>
+    <p>
+        <b>Lịch Sử Luyện Thi:</b> Chuyển sang tab "Lịch Sử Luyện Thi" để xem lại kết quả của các bài kiểm tra có tính thời gian.
+    </p>
+    ]]>
+</string>
+</resources>

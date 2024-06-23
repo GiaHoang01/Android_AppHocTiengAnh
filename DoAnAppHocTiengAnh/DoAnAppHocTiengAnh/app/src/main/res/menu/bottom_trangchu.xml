@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/trangchu"
+        android:icon="@drawable/tranchu"
+        android:title="Home" />
+
+    <item android:id="@+id/Thi"
+        android:icon="@drawable/examtc"
+        android:title="Exams" />
+
+    <item android:id="@+id/history"
+        android:icon="@drawable/lichsu"
+        android:title="History" />
+    <item android:id="@+id/CaiDat"
+        android:icon="@drawable/settc"
+        android:title="Setting" />
+
+
+</menu>

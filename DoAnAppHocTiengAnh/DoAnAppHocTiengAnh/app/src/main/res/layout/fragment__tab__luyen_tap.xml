@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Fragment_Tab_LuyenTap">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8E3A4"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Danh sách bài đọc đã hoàn thành :"
+                android:textAlignment="viewStart"
+                android:textColor="#FF5722"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_ChuaHoanThanhBaiDoc"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Chưa hoàn thành bài tập nào "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ListView
+                    android:id="@+id/lv_DanhSachDoc"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp">
+
+                </ListView>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Danh sách bài viết đã hoàn thành :"
+                android:textAlignment="viewStart"
+                android:textColor="#FF5722"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="DuplicateIds" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_ChuaHoanThanhBaiViet"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Chưa hoàn thành bài viết nào"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/lv_DanhSachViet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+    </LinearLayout>
+
+</FrameLayout>

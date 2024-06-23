@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LearnToRead.ReadTestActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/nendoc" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="416dp"
+            android:layout_height="500dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@+id/image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Read the passage and answer the questions : "
+                android:textColor="#A692FBE6"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ABCCCCCC">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="20dp"
+                        android:text="llllllllllllllllllllllll"
+                        android:textColor="#273B3E"
+                        android:textSize="8pt" />
+                </LinearLayout>
+            </ScrollView>
+
+            <!--                android:text="Jean spent her first few years in Hooper and her family moved to Otsego early in her life. She was only ten when her father died unexpectedly, leaving her mother to raise and support their family alone. Her mother soon went to work outside the home to provide for the family, and Jean, being one of the oldest, had to help care for her younger siblings. Although she had much responsibility at home, Jean thoroughly enjoyed school and was an excellent student. She went on to graduate 10th in her class at Otsego High School in 1953.-->
+            <!--While still in high school, Jean met a young man named Charles  Holly, at a dance in Alamo; and they were quite taken with each other. Over the next few years, their love for each other blossomed and they were married on February 24, 1953, while Jean was still in school. At the time, Chuck was serving his country in the military, and had come home on leave to marry his sweetheart. Unfortunately, shortly thereafter, he was sent overseas to serve in Korea for the next fifteen months."-->
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#D22A372A"
+            android:textStyle="bold"
+            android:text="Bắc đầu nào"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            app:layout_constraintVertical_bias="0.448" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BE3F51B5"
+            android:gravity="center"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintTop_toTopOf="@+id/image"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="0dp">
+            <ImageButton
+                android:id="@+id/btn_backLR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/default_color"
+                android:src="@drawable/quaylai"
+                android:layout_marginTop="-30dp"
+                android:layout_marginLeft="-45dp"
+                android:layout_marginRight="50dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/nguphap" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tên Bài Đọc : "
+                        android:textColor="#fff"
+                        android:textSize="8pt"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:text="4"
+                        android:textSize="8pt" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+
+                        android:text="Tổng số câu hỏi  : "
+                        android:textSize="8pt"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:textColor="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:textSize="8pt" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textColor="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Điểm Cao Nhất: "
+                        android:textAlignment="viewStart"
+                        android:textSize="8pt"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/highcore"
+                        android:textColor="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4%"
+                        android:textSize="8pt" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

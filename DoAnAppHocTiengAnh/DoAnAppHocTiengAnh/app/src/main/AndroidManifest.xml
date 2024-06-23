@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/anh1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DoAnAppHocTiengAnh"
+        tools:targetApi="31">
+        <activity
+            android:name=".LearnToRead.ResultTestReadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VActivity.VDinhNghiaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityThiThu.AllExams"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityThiThu.CauHoiKT"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityThiThu.LoadCauHoi"
+            android:exported="false" />
+        <activity
+            android:name=".DangNhap"
+            android:exported="false" />
+        <activity
+            android:name=".History"
+            android:exported="false" />
+        <activity
+            android:name=".LearnToRead.ReadTestDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LearnToRead.ReadListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LearnToRead.ReadTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityNghe.HienThiBaiNghe"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityNghe.DanhSachBaiNghe"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityNguPhap.NoiDungNguPhap"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityNguPhap.ActivityNguPhap"
+            android:exported="false" />
+        <activity
+            android:name=".VActivity.VChonTuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VActivity.VActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LActivity.LActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityViet.DanhSachChonChuongViet"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityViet.KetQuaViet"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityViet.LuyenTapViet"
+            android:exported="false" />
+        <activity
+            android:name=".TrangChu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

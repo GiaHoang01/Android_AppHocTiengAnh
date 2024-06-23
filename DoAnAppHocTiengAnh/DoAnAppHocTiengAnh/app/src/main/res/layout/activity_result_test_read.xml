@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bgcongratulation"
+    android:layout_gravity="center"
+    tools:context=".LearnToRead.ResultTestReadActivity">
+    <TextView
+        android:layout_marginTop="300dp"
+        android:id="@+id/txtTitle_Result"
+        android:textSize="25pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textColor="#CBF44336"
+        android:text="Congratulations" />
+
+    <TextView
+        android:id="@+id/tvcoreR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#222B2A"
+        android:textStyle="bold"
+        android:textSize="16pt"
+        android:text="Total Core : 100"/>
+    <TextView
+        android:id="@+id/tvTimeR"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#222B2A"
+        android:textStyle="bold"
+        android:textSize="16pt"
+        android:text="Total Time : 100"/>
+    <TextView
+        android:id="@+id/tvHighcore"
+        android:layout_marginTop="20dp"
+        android:textColor="#CDDC39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textStyle="italic"
+        android:textSize="11pt"
+        android:text="You have achieved the highest score"/>
+    <Button
+        android:id="@+id/btnBackR"
+        android:layout_marginTop="20dp"
+        android:textSize="10pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#682196F3"
+        android:text="Back to Home"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:src="@drawable/celebrationw"/>
+
+</LinearLayout>
